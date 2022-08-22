@@ -1,0 +1,48 @@
+
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+      <div class="col-xs-12 text-center head_div">
+        <h2 class="head">SoundControlled Aliens</h2>
+        <p class="head_p">Works for the following sounds only:<br>
+        Clap<br>
+        Thud<br>
+        MouseClick</p>
+      </div>
+      <div class="body_div">
+        <center>
+          <button class="btn btn-info start_btn" onclick="startRecognition()">Start Recognition</button>
+          <h3 id="body_label">Sound Detected is - </h3>
+          <h3 id="body_accuracy_display">Accuracy - </h3>
+          <br>
+          <img src="aliens-01.png" id="IMG1DISPLAY" width="300" height="250">
+          <img src="aliens-02.png" id="IMG2DISPLAY" width="300" height="250">
+          <img src="aliens-03.png" id="IMG3DISPLAY" width="300" height="250">
+          <img src="aliens-04.png" id="IMG4DISPLAY" width="300" height="250">
+        </center>
+      </div>
+      <div class="div_foot text-center">Developed by: Abhimanyu</div>
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
